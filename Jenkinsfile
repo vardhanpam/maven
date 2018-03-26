@@ -7,7 +7,7 @@ pipeline{
 
         stage('Pull Repo'){
             steps {
-                git 'https://github.com/vardhanpam/maven/tree/dev'
+                git 'https://github.com/vardhanpam/maven/blob/dev'
                 
             }
         }
